@@ -2,10 +2,6 @@
 
 Android 30부터 `ApplicationExitInfo` , 35부터 `ApplicationStartInfo` 를 지원합니다
 
-whatap android agent에서 디바이스의 api를 기준으로 AppStart에 `ApplicationStartInfo` 의 정보를, Crash, Anr에 `ApplicationExitInfo`  정보를 넣어서 다채로운 정보를 제공합니다
-
-특히 Anr의 경우 Anr로 인해 앱을 껐는지 여부는 알 수 없는데 , `ApplicationExitInfo` 를 이용하여 알 수 있습니다
-
 ---
 
 https://github.com/devload/AndroidApplicationInfoExample
